@@ -14,9 +14,9 @@ const navbar = () => {
         </button>
       </div>
       <div class="nav-icons">
-        <a href="#" class="icon"><i class="fas fa-map-marker-alt"></i></a>
-        <a href="#" class="icon user"><i class="fas fa-user"></i></a>
-        <a href="#" class="icon"><i class="fas fa-shopping-cart"></i></a>
+        <a href="location.html" class="icon"><i class="fas fa-map-marker-alt"></i></a>
+        <a href="profile.html" class="icon user"><i class="fas fa-user"></i></a>
+        <a href="cart.html" class="icon"><i class="fas fa-shopping-cart"></i></a>
       </div>
     </nav>
     `;

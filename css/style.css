@@ -69,6 +69,7 @@ body {
     border: none;
     color: black;
     cursor: pointer;
+    font-weight: 0;
     padding: 5px;
   }
   .nav-icons {
@@ -84,5 +85,5 @@ body {
   }
   .user:hover{
     color: #12daa8;
-    display:none;
+    /* display:none; */
   }

@@ -5,29 +5,292 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <!-- Add this line -->
     <title>Croma-Style Navbar</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <!-- Link to Font Awesome for Icons -->
     <script
       src="https://kit.fontawesome.com/a076d05399.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="nav"></div>
-    <div id="container"></div>
-  </body>
-  <script src="./scripts/navbar.js"></script>
-  <script src="./scripts/index.js"></script>
-</html>
+    <div id="container">
+
+      <!-- sliding -->
+      <div class="slider">
+        <div class="slides">
+          <div class="slide active">
+            <img src="images/img1.webp" alt="Image 1">
+          </div>
+          <div class="slide">
+            <img src="images/img2.webp" alt="Image 2">
+          </div>
+          <div class="slide">
+            <img src="images/img3.webp" alt="Image 3">
+          </div>
+          <div class="slide active">
+            <img src="images/img4.webp" alt="Image 1">
+          </div>
+          <div class="slide">
+            <img src="images/img5.webp" alt="Image 2">
+          </div>
+          <div class="slide">
+            <img src="images/img6.webp" alt="Image 3">
+          </div>
+          <div class="slide active">
+            <img src="images/img7.webp" alt="Image 1">
+          </div>
+          <div class="slide">
+            <img src="images/img8.webp" alt="Image 2">
+          </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+      </div>
+
+      <!-- all products -->
+      <div class="logo-container">
+        <button class="arrow left-arrow">&lt;</button>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Mobile.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/air-purifiers.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/television.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Laptops.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/headset.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Kitchen_Appliances.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Washing_machines.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Geysers.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Wearables.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Home_theatres.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Tablets.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/refrigerators.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Water_Purifiers.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Speakers.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Grooming.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Accessories.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Microwaves.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Cameras.webp">
+        </div>
+        <div class="logos" id="logoContainer">
+          <img src="./images/Air_Conditioner.webp">
+        </div>
+        <button class="arrow right-arrow">&gt;</button>
+      </div>
+    </div>
+
+    <!-- grid image -->
+    <h3 class="heading">Our New Favourites</h3>
+    <div class="image-grid">
+      <img src="images/img_1.webp" alt="Image 1">
+      <img src="images/img_2.webp" alt="Image 2">
+      <img src="images/img_3.png" alt="Image 3">
+      <img src="images/img_4.png" alt="Image 4">
+    </div>
+
+    <!-- card section -->
+
+    <h3 class="heading">Whats Hot</h3>
+    <div class="cards">
+      <div class="card">
+        <img src="./images/card1.webp" alt="Image 1">
+      </div>
+      <div class="card">
+        <img src="./images/card2.webp" alt="Image 2">
+      </div>
+      <div class="card">
+        <img src="./images/card3.webp" alt="Image 3">
+      </div>
+      <div class="card">
+        <img src="./images/card4.webp" alt="Image 4">
+      </div>
+    </div>
+
+    <!-- grid image -->
+    <h3 class="heading">Deals on Croma Appliances</h3>
+    <div class="image-grid">
+      <img src="images/img_1.webp" alt="Image 1">
+      <img src="images/img_2.webp" alt="Image 2">
+    </div>
+
+    <!-- card section -->
+
+    <h3 class="heading">Deals of The Day</h3>
+    <div class="cards">
+      <div class="card">
+        <img src="./images/card5.webp" alt="Image 1">
+      </div>
+      <div class="card">
+        <img src="./images/card6.webp" alt="Image 2">
+      </div>
+      <div class="card">
+        <img src="./images/card7.webp" alt="Image 3">
+      </div>
+      <div class="card">
+        <img src="./images/card8.webp" alt="Image 4">
+      </div>
+    </div>
+
+    <!-- card section -->
+
+    <h3 class="heading">No More worrying About Your Appliances</h3>
+    <div class="info">
+      <div class="inf">
+        <img src="./images/single_image.webp" alt="Image 1">
+      </div>
+    </div>
+
+    <!--croma services -->
+    <div class="service-container">
+      <h3 class="heading">Exclusive Curated For you</h3>
+      <div class="service-icons">
+        <div class="card1">
+          <img src="./images/Croma_Collections.webp" alt="Image 1">
+        </div>
+        <div class="card1">
+          <img src="./images/croma_Express.webp" alt="Image 2">
+        </div>
+        <div class="card1">
+          <img src="./images/emi_store.webp" alt="Image 3">
+        </div>
+        <div class="card1">
+          <img src="./images/deals_corner.webp" alt="Image 4">
+        </div>
+        <div class="card1">
+          <img src="./images/deals.webp" alt="Image 5">
+        </div>
+        <div class="card1">
+          <img src="./images/E_waste.webp" alt="Image 6">
+        </div>
+      </div>
+      <div class="image-grid">
+        <img src="images/gift_card.webp" alt="Image 1">
+        <img src="images/Indulge.webp" alt="Image 2">
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+      <div class="footer-section">
+        <h5 class="h5">Connect with us</h5>
+        <div class="search">
+          <input type="text" placeholder="Enter Email ID" />
+          <button type="button" class="search-btn">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="social-icons">
+          <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>© Copyright 2023 Croma. All rights reserved</p>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-section">
+        <h5>Useful Links</h5>
+        <div class="footer-links">
+          <div class="column">
+            <ul>
+              <li><a href="#">About Croma</a></li>
+              <li><a href="#">Help And Support</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Buying Guide</a></li>
+              <li><a href="#">Return Policy</a></li>
+              <li><a href="#">B2B Orders</a></li>
+              <li><a href="#">Store Locator</a></li>
+              <li><a href="#">E-Waste</a></li>
+              <li><a href="#">Franchise Opportunity</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <li><a href="#">Site Map</a></li>
+              <li><a href="#">Careers At Croma</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Disclaimer</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Unboxed</a></li>
+              <li><a href="#">Gift Card</a></li>
+              <li><a href="#">Croma E-Star</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-section">
+        <h5>Products</h5>
+        <div class="footer-links">
+          <div class="column">
+            <ul>
+              <li><a href="#">Televisions & Accessories</a></li>
+              <li><a href="#">Home Appliances</a></li>
+              <li><a href="#">Phones & Wearables</a></li>
+              <li><a href="#">Computers & Tablets</a></li>
+              <li><a href="#">Kitchen Appliances</a></li>
+              <li><a href="#">Audio & Video</a></li>
+              <li><a href="#">Health & Fitness</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <li><a href="#">Grooming & Personal Care</a></li>
+              <li><a href="#">Cameras & Accessories</a></li>
+              <li><a href="#">Smart Devices</a></li>
+              <li><a href="#">Gaming</a></li>
+              <li><a href="#">Accessories</a></li>
+              <li><a href="#">Top Brands</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </body>
+    <script src="./scripts/navbar.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/footer.js"></script>
+  </html>
